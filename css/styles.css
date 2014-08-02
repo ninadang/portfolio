@@ -16,6 +16,23 @@ h1 {
 	margin-left: 12px;
 }
 
+.logo {
+	display: block;
+	margin: auto;
+	margin-top: 45px;
+	margin-bottom: 20px;
+}
+
+.hero-p {
+	color: #ffffff;
+	width: 47%;
+	line-height: 1.25;
+	display: block;
+	margin: auto;
+	font-size: 20px;
+	text-align: center;
+}
+
 .row {
 	/*background-color: #efefef;*/
 	margin-top: 30px;
@@ -27,7 +44,6 @@ h1 {
 	height: 427px;
 	position: absolute;
 	z-index: 99;
-	margin-left: 15px;
 }
 
 #middle-text {
@@ -53,5 +69,13 @@ h1 {
 
 .large-4 p {
 	text-align: center;
+}
+
+.black {
+	visibility: hidden;
+}
+
+#hero:hover .black{
+	visibility: visible;
 }
 
