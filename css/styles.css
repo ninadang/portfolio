@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700|Roboto+Condensed:400,700,300);
+
+.Miso { 
+	font-family: Miso;
+	font-weight: normal;
+	font-style: normal;
+}
+
+body, h1 {
+	font-family: Miso;
+}
+
+h1 {
+	font-size: 48px;
+	margin: 0px;
+	margin-left: 12px;
+}
+
+.row {
+	/*background-color: #efefef;*/
+	margin-top: 30px;
+}
+
+.black {
+	background-color: rgba(0,0,0,.75);
+	width: 980px;
+	height: 427px;
+	position: absolute;
+	z-index: 99;
+	margin-left: 15px;
+}
+
+#middle-text {
+	text-align: center;
+}
+
+.focus {
+	font-size: 20px;
+}
+
+.project {
+	font-size: 18px;
+}
+
+.project-title {
+	font-size: 12px;
+}
+
+.project, .project-title {
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+.large-4 p {
+	text-align: center;
+}
+

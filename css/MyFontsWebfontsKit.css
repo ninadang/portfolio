@@ -1,0 +1,28 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 2854906, 2014-07-30T02:55:10-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Miso by Mårten Nettelbladt
+ * URL: http://www.myfonts.com/fonts/martennettelbladt/miso/regular/
+ * Copyright: Copyright (c) M&#x00E5;rten Nettelbladt, 2006. All rights reserved.
+ * Licensed pageviews: 20,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2854906
+ * 
+ * © 2014 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2b8ffa");
+
+  
+@font-face {font-family: 'Miso';src: url('webfonts/2B8FFA_0_0.eot');src: url('webfonts/2B8FFA_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2B8FFA_0_0.woff') format('woff'),url('webfonts/2B8FFA_0_0.ttf') format('truetype');}
+ 
