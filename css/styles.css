@@ -46,24 +46,36 @@ h1 {
 	z-index: 99;
 }
 
-#middle-text {
-	text-align: center;
+.personal {
+	margin-top: 20px;
 }
 
-.focus {
-	font-size: 20px;
+.focus, .design, .contact {
+	font-size: 22px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+#works, #designs, #contact-info {
+	margin-bottom: 90px;
 }
 
 .project {
 	font-size: 18px;
+	font-family: 'Roboto Condensed';
+	font-weight: 300;
 }
 
-.project-title {
+.project-title, .project-comp {
 	font-size: 12px;
 }
 
 .project, .project-title {
 	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+.project-type {
 	margin-bottom: 0px;
 }
 
@@ -77,5 +89,51 @@ h1 {
 
 #hero:hover .black{
 	visibility: visible;
+}
+
+/*
+.icon {
+	filter: none;
+ 	-webkit-filter: grayscale(0%);
+}
+
+.icon:hover {
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+ 	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: url(grayscale.svg); 
+	filter: gray; 
+}
+*/
+
+.icon {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: url(grayscale.svg); 
+  filter: gray; /
+}
+
+.icon:hover {
+	filter: none;
+ 	-webkit-filter: grayscale(0%);
+}
+
+
+
+#info {
+	border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+}
+
+.footer {
+	font-family: 'Roboto Condensed';
+	font-weight: 300;
+	text-align: center;
 }
 
