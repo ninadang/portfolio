@@ -7,10 +7,13 @@
 	<link rel="stylesheet" type="text/css" href="css/foundation.min.css">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/MyFontsWebfontsKit.css">
+	<!-- OSX Style CSS files 
+	<link type='text/css' href='css/osx.css' rel='stylesheet' media='screen' /> -->
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 </head>
 <body>
+	<div class="overlay"></div>
 	<div id="content">
 		<!--Row for the hero image -->
 		<div class="row" id="featured">
@@ -22,12 +25,14 @@
 					purposely made this image really large (design thinking?). Welcome to my
 					portfolio. I'm a student at the University of Washington, a StarCraft fanatic 
 					and amateur photographer. I make websites and graphic designs with the hope of 
-					breaking into the UX and web industries.     	
+					breaking into the UX industry. Feel free to shoot me an email, glance at my 
+					resume, or browse my projects below.     	
 					</p>
 				</div>
 				<img src="img/hero.jpg" alt="Picture of Nina">
 			</div>
 		</div>
+
 
 		<!--Row for middle text -->
 		<div class="row" id="middle-text">
@@ -39,17 +44,17 @@
 		<!--Row of works icons -->
 		<div class="row" id="works">
 			<div class="large-4 columns">
-				<img src="img/placeholder.jpg">
+				<img class="icon" id="bs" src="img/bs.png">
 				<p class="project">BlizzStats</p>
-				<p class="project-type">UX, Front &amp; Backend Web Dev</p>
+				<p class="project-type">UX, Frontend &amp; Backend Web Dev</p>
 			</div>
 			<div class="large-4 columns">
-				<img src="img/placeholder.jpg">
+				<img class="icon" id="ac" src="img/aegean-ic.png">
 				<p class="project">Aegean Cruises</p>
 				<p class="project-type">UX</p>
 			</div>
 			<div class="large-4 columns">
-				<img class="icon" src="img/narr.png">
+				<img class="icon" id="nar" src="img/narr.png">
 				<p class="project">Narrative</p>
 				<p class="project-type">UX, Frontend Web Dev</p>
 			</div>
@@ -57,13 +62,13 @@
 
 		<div class="row">
 			<div class="large-12 columns">
-				<p class="design">DESIGN</p>
+				<p class="design">VISUAL DESIGN</p>
 			</div>
 		</div>
 
 		<div class="row" id="designs">
 			<div class="large-4 columns">
-				<img src="img/placeholder.jpg">
+				<img class="icon" id="hs" src="img/angrychickenl.png">
 				<p class="project">Hearthstone Infographic</p>
 				<p class="project-type">Graphic Design, Data Vis</p>
 			</div>
@@ -73,17 +78,132 @@
 				<p class="project-type">Graphic Design, Frontend Web Dev</p>
 			</div>
 			<div class="large-4 columns">
-				<img class="icon" src="img/poly.png">
+				<img class="icon" id="poly" src="img/poly.png">
 				<p class="project">Polygon Art</p>
 				<p class="project-type">Graphic Design</p>
 			</div>
 		</div>
 	</div>
 
+	<div class="projbs">
+		<div class="proj-container">
+			<a class="close" href="#">CLOSE</a>
+			<p class="proj-header">BlizzStats<p>
+			<p class="proj-cat sub">Blizzard Entertainment</p>
+			<p class="proj-desc nda">This project is under NDA (non-disclosure agreement).</p>
+			<p class="proj-cat">Background</p>
+			<p class="proj-desc">I was presented with a server whose problematic interface stunted users' productivity.</p>
+			<p class="proj-cat">The Result</p>
+			<p class="proj-desc">I created BlizzStats, a web portal, designed to improve the experience of navigating through a collection of data visualizations.</p>
+			<p class="proj-cat">Skills Used</p>
+			<p class="proj-desc">HTML5, CSS3, JavaScript, jQuery, PHP, PostgreSQL</p>
+			<a href="img/full/bg2.jpg" target="_blank"><img src="img/bs1.png"></a>
+		</div>
+	</div>
+
+	<div class="projac">
+			<div class="proj-container">
+			<a class="close" href="#">CLOSE</a>
+			<p class="proj-header">Aegean Cruises<p>
+			<p class="proj-cat sub">Academic Group Project</p>
+			<p class="proj-cat">Background</p>
+			<p class="proj-desc">The premises of this assignment were to create an excursions website for an imaginary 
+			cruiseline, with the goal of improving the target audience's satisfaction of those excursions. Our assigned audience 
+			was teenagers (ages 12-18). The excursions themselves could not be changed.</p>
+			<p class="proj-cat">Concept</p>
+			<p class="proj-desc">Analysis of demographics, psychographics, personas, and 
+				context scenarios led us to consider the elements of friendship and sharing as catalysts for satisfaction. When the audience 
+				decides how satisfied they were with an excursion, it is often in hindsight as a memory. Making friends, sharing
+				photos, posting to social media sites, and seeing an influx of reactions from their 
+				own personal networks allows the impression to last long after the excursion is over.</p>
+			<p class="proj-cat">The Result</p>
+			<p class="proj-desc">We designed the site to make it easy to integrate friends into the planning and selection of 	excursions. The website aims to encourage people to share their experiences, both 
+				during and after the excursions.</p>
+			<p class="proj-cat">Skills Used</p>
+			<p class="proj-desc">Lucidchart, Adobe Illustrator</p>
+			<a href="img/full/aegean.png" target="_blank"><img id="aeg" src="img/aegean1.png"></a>
+		</div>
+	</div>
+
+	<div class="projnar">
+		<div class="proj-container">
+			<a class="close" href="#">CLOSE</a>
+			<p class="proj-header">Narrative<p>
+			<p class="proj-cat sub">Hackathon Project</p>
+			<p class="proj-cat">Background</p>
+			<p class="proj-desc">I attended a StartUp Weekend event at my university to participate as a UX Designer and Frontend Developer. The theme of the weekend was to create an application that fosters educational growth or benefit. We were
+				given 53 hours to create a project.</p>
+			<p class="proj-cat">Concept</p>
+			<p class="proj-desc">Having two former teachers on our team, we listened to their past experiences about what they wished
+				they had when they were teaching. We narrowed it down to the subject of creative writing, an important but sometimes 
+				overlooked subject. We wanted to enhance the writing experience but still leave the creativity and freedom to the 
+				author.</p>
+			<p class="proj-cat">The Result</p>
+			<p class="proj-desc">
+				Upon visiting the site, a random prompt paired with an image is generated for the user. 
+				The user types their narrative in the text editor and can refer to helpers on the side 
+				if they need more inspiration. They can then publish their story to a community feed. </p>
+			<p class="proj-cat">Skills Used</p>
+			<p class="proj-desc">HTML5, CSS3, JavaScript, jQuery</p>
+			<a href="img/full/narr2.PNG" target="_blank"><img src="img/narr2.png"></a>
+		</div>
+	</div>
+
+	<div class="projhs">
+		<div class="proj-container">
+			<a class="close" href="#">CLOSE</a>
+			<p class="proj-header">Hearthstone Infographic<p>
+			<p class="proj-cat sub">Blizzard Entertainment</p>
+			<p class="proj-desc">[In Progress]</p>
+			<p class="proj-cat">Tools Used</p>
+			<p class="proj-desc">Adobe Illustrator, Adobe Photoshop</p>
+			<a href="img/full/angrychicken.jpg" target="_blank"><img src="img/angrychicken1.png"></a>
+		</div>
+	</div>
+
+	<div class="projinfo">
+		<div class="proj-container">
+			<a class="close" href="#">CLOSE</a>
+			<p class="proj-header">InfoCrafts<p>
+			<p class="proj-cat sub">Personal Project</p>
+			<p class="proj-cat">Background</p>
+			<p class="proj-desc">I have been a fan of Blizzard Entertainment's StarCraft franchise for more than half my 
+				life. To improve my skills, I often watch YouTube videos created by my 
+			favorite video game personality, Sean "Day[9]" Plott. I, and many others who have seen Sean's videos, all recognize the quality of insightful content he provides when teaching people how to become better gamers. However, his videos are somewhat long to account for all of the information. 
+			</p>
+			<p class="proj-cat">Concept</p>
+			<p class="proj-desc">Because a lot of the concepts in StarCraft are processes, memorization tactics, and overall 
+				very interactive, I thought the best way to summarize Seans video's would be to make visualizations. The game 
+				is very mentally stimulating, so I believed presenting the ideas in a visual way would register with a lot of 
+				gamers. </p>
+			<p class="proj-cat">The Result</p>
+			<p class="proj-desc">My visualizations are designed to be quickly read as memory joggers and supplementals 
+				to Sean's videos. I also wanted to enhance the content itself by using encoding, visual hierarchy, color, and shape associations to make absorbing the information easy.</p>
+				<a href="http://www.infocrafts.co" target="_blank">visit infocrafts</a></p>
+			   	<p class="proj-cat">Skills/Tools Used</p>
+				<p class="proj-desc">HTML5, CSS3, JavaScript, jQuery, Adobe Illustrator, Adobe Photoshop</p>
+			   	<p id="inf"><a href="img/full/info.JPG" target="_blank"><img id="info" src="img/info1.png"></a></p>
+			</div>
+		</div>
+	</div>
+
+	<div class="projpoly">
+		<div class="proj-container">
+			<a class="close" href="#">CLOSE</a>
+			<p class="proj-header">Polygon Art<p>
+			<p class="proj-cat sub">Personal Project</p>
+			<p class="proj-cat">Background</p>
+			<p class="proj-desc">This is a low poly illustration I created for fun.</p>
+			<p class="proj-cat">Tools Used</p>
+			<p class="proj-desc">Adobe Illustrator</p>
+			<p id="poly"><a href="img/full/polygon.JPG" target="_blank"><img id="poly" src="img/polygon1.jpg"></a>
+		</div></p>
+	</div>
+
 	<div class="row" id="contact-info">
 			<div class="large-12 columns">
 				<p class="contact">CONTACT</p>
-				<p class="footer">ninadangt@gmail.com</p>
+				<p class="footer">ninadangt@gmail.com<br><a class="resume" href="img/NinaDangResume.pdf" target="_blank">my resume</a></p>
 			</div>
 		</div>
 
@@ -92,5 +212,9 @@
 	<script>
       $(document).foundation();
     </script>
+    <!--
+    <script type='text/javascript' src='js/jquery.simplemodal.js'></script>
+	<script type='text/javascript' src='js/osx.js'></script>
+-->
 </body>
 </html>
